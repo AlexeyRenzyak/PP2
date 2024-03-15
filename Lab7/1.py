@@ -29,7 +29,7 @@ while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             exit()
-    screen.fill((255,0,0))
+    screen.fill((0,0,0))
     t = datetime.datetime.now()
 
 
